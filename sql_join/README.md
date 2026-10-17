@@ -23,7 +23,7 @@ tasks 8-15 use `academy.db`. Run a file with:
 
 | Task | File | Concept |
 |------|------|---------|
-| 8 | `8-courses-and-instructors.sql` | One-to-many, every course with its instructor (or NULL) |
+| 8 | `8-courses-and-instructors.sql` | INNER JOIN, each course with its instructor |
 | 9 | `9-instructors-and-courses.sql` | LEFT JOIN, every instructor even without courses |
 | 10 | `10-students-and-registered-courses.sql` | Many-to-many through registrations |
 | 11 | `11-course-registration-count.sql` | Registration count per course, zero included |
